@@ -199,7 +199,7 @@ Make sure there are no extra spaces or invalid characters.
 
 -- text-embedding-004 (Check this in your Google AI Studio dashboard)
 
-## ❗ 500 Internal Server Error or “Could not extract text from the document”
+###❗ 500 Internal Server Error or “Could not extract text from the document”
 - The document might be:
 
  - Image-only (scanned)
