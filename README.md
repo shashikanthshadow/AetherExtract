@@ -106,7 +106,7 @@ This GIF demonstrates launching the chatbot and successfully uploading a documen
 
 This GIF shows how AetherExtract provides brief, 3-5 sentence answers for general questions.
 
-[Image: GIF 2: Concise Response] (assets/GeneralConcise%20Response%20Test%20(Default%203-5%20Sentences).gif)
+[Image: GIF 2: Concise Response] (assets/Specific Information Extraction.gif).gif)
 
 (Description: User types "What is Artificial Intelligence?", hits Send. Chatbot responds with a concise overview of AI and a single source.)
 
