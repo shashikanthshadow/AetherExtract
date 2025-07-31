@@ -180,12 +180,12 @@ mini_rag_chatbot/
 
 ## 🛠️ Troubleshooting
 ### ❗ ModuleNotFoundError or DefaultCredentialsError
-** Ensure all packages in requirements.txt are installed:
+- Ensure all packages in requirements.txt are installed:
 
 ``` bash
 pip install -r requirements.txt
 ```
-** Verify your .env file is in the root directory, and contains:
+- Verify your .env file is in the root directory, and contains:
 
 ``` env
 
@@ -193,44 +193,44 @@ GOOGLE_API_KEY="YOUR_KEY_HERE"
 ```
 Make sure there are no extra spaces or invalid characters.
 
-** Confirm your API key is active and has permissions for:
+- Confirm your API key is active and has permissions for:
 
-*** gemini-2.0-flash
+-- gemini-2.0-flash
 
-*** text-embedding-004 (Check this in your Google AI Studio dashboard)
+-- text-embedding-004 (Check this in your Google AI Studio dashboard)
 
 ## ❗ 500 Internal Server Error or “Could not extract text from the document”
-** The document might be:
+- The document might be:
 
-*** Image-only (scanned)
+-- Image-only (scanned)
 
-*** Encrypted
+-- Encrypted
 
-*** Corrupted
+-- Corrupted
 
-** Try using a digitally created .pdf, .docx, or .txt file first.
+- Try using a digitally created .pdf, .docx, or .txt file first.
 
-** For .doc files:
+- For .doc files:
 
-*** Ensure antiword is installed if docx2txt fails.
+-- Ensure antiword is installed if docx2txt fails.
 (See setup instructions for installing antiword.)
 
 ###❗ 429 Quota Exceeded
-** You've hit your free-tier usage limits for the Gemini API.
+- You've hit your free-tier usage limits for the Gemini API.
 
-** Wait for your quota to reset (check the reset time in your Google AI Studio).
+- Wait for your quota to reset (check the reset time in your Google AI Studio).
 
-** Consider upgrading or increasing quota on your Google Cloud project.
+- Consider upgrading or increasing quota on your Google Cloud project.
 
 ### ❗ Frontend not loading (seeing raw JSON)
-** Make sure you are navigating to:
+- Make sure you are navigating to:
 
 ```cpp
 http://127.0.0.1:8000/
 ```
 Do not open /upload-document or /chat directly in the browser.
 
-** Clear your browser cache if you don’t see updated CSS or JS changes.
+--Clear your browser cache if you don’t see updated CSS or JS changes.
 
 
 
