@@ -69,7 +69,7 @@ pip install -r requirements.txt
 Create a .env file in the root directory:
 
 ```env
-GOOGLE_API_KEY=YOUR_GEMINI_API_KEY_HERE
+GOOGLE_API_KEY="YOUR_GEMINI_API_KEY_HERE"
 ```
 Ensure there are no spaces around the = sign.
  
@@ -89,6 +89,86 @@ Go to:
 http://127.0.0.1:8000/
 ```
 You should now see the AetherExtract chatbot interface.
+
+## 💡 Usage Examples & Demonstrations
+
+Here are some examples of AetherExtract in action. Ensure you upload a suitable document (like the sample AI/ML content provided previously) for these queries.
+
+### 1. Initial Load & Document Upload
+
+This GIF demonstrates launching the chatbot and successfully uploading a document.
+
+[Image: GIF 1: Initial Load & Document Upload] (assets/GeneralConcise%20Response%20Test%20(Default%203-5%20Sentences).gif)
+
+(Description: Shows the browser loading http://127.0.0.1:8000/, then the user clicking the folder icon, selecting a document file, and seeing the "Document processed successfully!" message.)
+
+### 2. Concise Response Example
+
+This GIF shows how AetherExtract provides brief, 3-5 sentence answers for general questions.
+
+[Image: GIF 2: Concise Response] (assets/GeneralConcise%20Response%20Test%20(Default%203-5%20Sentences).gif)
+
+(Description: User types "What is Artificial Intelligence?", hits Send. Chatbot responds with a concise overview of AI and a single source.)
+
+### 3. Detailed Response Example
+
+This GIF highlights AetherExtract's ability to give comprehensive answers when more detail is requested.
+
+[Image: GIF 3: Detailed Response] (assets/DetailedComprehensive%20Response%20Test%20(Explicitly%20Asking%20for%20Detail).gif)
+
+(Description: User types "Explain in detail the different types of machine learning.", hits Send. Chatbot responds with a multi-paragraph explanation of supervised, unsupervised, and reinforcement learning, and a single source.)
+
+### 4. Reset Functionality & Out-of-Context Handling
+
+This GIF demonstrates clearing the chatbot and its appropriate response to questions outside the document's scope.
+
+[Image: GIF 4: Reset & Out-of-Context] (assets/I cannot find the answer.gif)
+
+(Description: User clicks the 🔄 (reset) button, confirms reset. Chatbot clears. User then types "What is the capital of France?", hits Send. Chatbot responds with "I cannot find the answer to that question in the provided document.")
+
+
+
+## 🧪 Test Queries for Your Chatbot
+
+Upload your 5-6 page AI/ML sample document (or a similar relevant document) and try these queries:
+
+###General/Concise Response Test (Default 3-5 Sentences):
+
+"What is Artificial Intelligence?"
+
+"Define Machine Learning briefly."
+
+"Explain deep learning simply."
+
+###Detailed/Comprehensive Response Test (Explicitly Asking for Detail):
+
+"Explain in detail the different types of machine learning."
+
+"Provide a comprehensive explanation of how Computer Vision works."
+
+"Summarize the future directions of AI research in detail."
+
+###Specific Information Extraction:
+
+"Who introduced the Turing Test and when?"
+
+"What is the role of the Transformer architecture in NLP?"
+
+"List some common tasks in Computer Vision."
+
+###"I cannot find the answer" Test (Out of Context):
+
+"What is the capital of France?"
+
+"Who won the last Super Bowl?"
+
+"Tell me about quantum physics."
+
+## 📂 Project Structure
+
+
+
+
 
 
 
