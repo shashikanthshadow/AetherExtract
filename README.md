@@ -202,17 +202,17 @@ Make sure there are no extra spaces or invalid characters.
 ## ❗ 500 Internal Server Error or “Could not extract text from the document”
 - The document might be:
 
--- Image-only (scanned)
+ - Image-only (scanned)
 
--- Encrypted
+ - Encrypted
 
--- Corrupted
+ - Corrupted
 
 - Try using a digitally created .pdf, .docx, or .txt file first.
 
 - For .doc files:
 
--- Ensure antiword is installed if docx2txt fails.
+ - Ensure antiword is installed if docx2txt fails.
 (See setup instructions for installing antiword.)
 
 ###❗ 429 Quota Exceeded
@@ -221,8 +221,7 @@ Make sure there are no extra spaces or invalid characters.
 - Wait for your quota to reset (check the reset time in your Google AI Studio).
 
 - Consider upgrading or increasing quota on your Google Cloud project.
-
-### ❗ Frontend not loading (seeing raw JSON)
+###❗ Frontend not loading (seeing raw JSON)
 - Make sure you are navigating to:
 
 ```cpp
@@ -230,7 +229,7 @@ http://127.0.0.1:8000/
 ```
 Do not open /upload-document or /chat directly in the browser.
 
---Clear your browser cache if you don’t see updated CSS or JS changes.
+ - Clear your browser cache if you don’t see updated CSS or JS changes.
 
 
 
