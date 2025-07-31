@@ -132,7 +132,7 @@ This GIF demonstrates clearing the chatbot and its appropriate response to quest
 
 Upload your 5-6 page AI/ML sample document (or a similar relevant document) and try these queries:
 
-###General/Concise Response Test (Default 3-5 Sentences):
+### General/Concise Response Test (Default 3-5 Sentences):
 
 "What is Artificial Intelligence?"
 
@@ -140,7 +140,7 @@ Upload your 5-6 page AI/ML sample document (or a similar relevant document) and 
 
 "Explain deep learning simply."
 
-###Detailed/Comprehensive Response Test (Explicitly Asking for Detail):
+### Detailed/Comprehensive Response Test (Explicitly Asking for Detail):
 
 "Explain in detail the different types of machine learning."
 
@@ -148,7 +148,7 @@ Upload your 5-6 page AI/ML sample document (or a similar relevant document) and 
 
 "Summarize the future directions of AI research in detail."
 
-###Specific Information Extraction:
+### Specific Information Extraction:
 
 "Who introduced the Turing Test and when?"
 
@@ -156,7 +156,7 @@ Upload your 5-6 page AI/ML sample document (or a similar relevant document) and 
 
 "List some common tasks in Computer Vision."
 
-###"I cannot find the answer" Test (Out of Context):
+### "I cannot find the answer" Test (Out of Context):
 
 "What is the capital of France?"
 
