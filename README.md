@@ -98,7 +98,7 @@ Here are some examples of AetherExtract in action. Ensure you upload a suitable 
 
 This GIF demonstrates launching the chatbot and successfully uploading a document.
 
-[Image: GIF 1: Initial Load & Document Upload] (assets/Specific Information Extraction.gif)
+[Image: GIF 1: Initial Load & Document Upload](assets/SpecificInformationExtraction.gif)
 
 (Description: Shows the browser loading http://127.0.0.1:8000/, then the user clicking the folder icon, selecting a document file, and seeing the "Document processed successfully!" message.)
 
