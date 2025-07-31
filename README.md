@@ -195,11 +195,11 @@ Make sure there are no extra spaces or invalid characters.
 
 - Confirm your API key is active and has permissions for:
 
--- gemini-2.0-flash
+ - gemini-2.0-flash
 
--- text-embedding-004 (Check this in your Google AI Studio dashboard)
+ - text-embedding-004 (Check this in your Google AI Studio dashboard)
 
-###❗ 500 Internal Server Error or “Could not extract text from the document”
+### 500 Internal Server Error or “Could not extract text from the document”
 - The document might be:
 
  - Image-only (scanned)
@@ -215,13 +215,13 @@ Make sure there are no extra spaces or invalid characters.
  - Ensure antiword is installed if docx2txt fails.
 (See setup instructions for installing antiword.)
 
-###❗ 429 Quota Exceeded
+### 429 Quota Exceeded
 - You've hit your free-tier usage limits for the Gemini API.
 
 - Wait for your quota to reset (check the reset time in your Google AI Studio).
 
 - Consider upgrading or increasing quota on your Google Cloud project.
-###❗ Frontend not loading (seeing raw JSON)
+### Frontend not loading (seeing raw JSON)
 - Make sure you are navigating to:
 
 ```cpp
