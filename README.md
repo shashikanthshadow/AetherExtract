@@ -165,9 +165,72 @@ Upload your 5-6 page AI/ML sample document (or a similar relevant document) and 
 "Tell me about quantum physics."
 
 ## 📂 Project Structure
+```
+mini_rag_chatbot/
+├── .env                    # Environment variables (e.g., GOOGLE_API_KEY)
+├── app/
+│   ├── main.py             # FastAPI backend application, serves frontend & API endpoints
+│   └── rag_pipeline.py     # Core RAG logic: document processing, embeddings, LLM interaction
+├── frontend/
+│   ├── index.html          # Main HTML structure of the chatbot UI
+│   ├── style.css           # CSS for styling and layout (Aurora theme)
+│   └── script.js           # JavaScript for frontend interactivity and API calls
+└── requirements.txt        # Python dependencies
+```
 
+## 🛠️ Troubleshooting
+### ❗ ModuleNotFoundError or DefaultCredentialsError
+** Ensure all packages in requirements.txt are installed:
 
+``` bash
+pip install -r requirements.txt
+```
+** Verify your .env file is in the root directory, and contains:
 
+``` env
+
+GOOGLE_API_KEY="YOUR_KEY_HERE"
+```
+Make sure there are no extra spaces or invalid characters.
+
+** Confirm your API key is active and has permissions for:
+
+*** gemini-2.0-flash
+
+*** text-embedding-004 (Check this in your Google AI Studio dashboard)
+
+## ❗ 500 Internal Server Error or “Could not extract text from the document”
+** The document might be:
+
+*** Image-only (scanned)
+
+*** Encrypted
+
+*** Corrupted
+
+** Try using a digitally created .pdf, .docx, or .txt file first.
+
+** For .doc files:
+
+*** Ensure antiword is installed if docx2txt fails.
+(See setup instructions for installing antiword.)
+
+###❗ 429 Quota Exceeded
+** You've hit your free-tier usage limits for the Gemini API.
+
+** Wait for your quota to reset (check the reset time in your Google AI Studio).
+
+** Consider upgrading or increasing quota on your Google Cloud project.
+
+### ❗ Frontend not loading (seeing raw JSON)
+** Make sure you are navigating to:
+
+```cpp
+http://127.0.0.1:8000/
+```
+Do not open /upload-document or /chat directly in the browser.
+
+** Clear your browser cache if you don’t see updated CSS or JS changes.
 
 
 
