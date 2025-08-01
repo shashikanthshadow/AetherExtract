@@ -98,7 +98,7 @@ Here are some examples of AetherExtract in action. Ensure you upload a suitable 
 
 This GIF demonstrates launching the chatbot and successfully uploading a document.
 
-[Image: GIF 1: Initial Load & Document Upload](assets/SpecificInformationExtraction.gif)
+![Image: GIF 1: Initial Load & Document Upload](assets/SpecificInformationExtraction.gif)
 
 (Description: Shows the browser loading http://127.0.0.1:8000/, then the user clicking the folder icon, selecting a document file, and seeing the "Document processed successfully!" message.)
 
@@ -106,7 +106,7 @@ This GIF demonstrates launching the chatbot and successfully uploading a documen
 
 This GIF shows how AetherExtract provides brief, 3-5 sentence answers for general questions.
 
-[Image: GIF 2: Concise Response] (assets/Specific Information Extraction.gif).gif)
+![Image: GIF 2: Concise Response](assets/GeneralConciseResponseTest.gif)
 
 (Description: User types "What is Artificial Intelligence?", hits Send. Chatbot responds with a concise overview of AI and a single source.)
 
@@ -114,7 +114,7 @@ This GIF shows how AetherExtract provides brief, 3-5 sentence answers for genera
 
 This GIF highlights AetherExtract's ability to give comprehensive answers when more detail is requested.
 
-[Image: GIF 3: Detailed Response] (assets/DetailedComprehensive%20Response%20Test%20(Explicitly%20Asking%20for%20Detail).gif)
+![Image: GIF 3: Detailed Response](assets/DetailedComprehensiveResponseTest.gif)
 
 (Description: User types "Explain in detail the different types of machine learning.", hits Send. Chatbot responds with a multi-paragraph explanation of supervised, unsupervised, and reinforcement learning, and a single source.)
 
@@ -122,7 +122,7 @@ This GIF highlights AetherExtract's ability to give comprehensive answers when m
 
 This GIF demonstrates clearing the chatbot and its appropriate response to questions outside the document's scope.
 
-[Image: GIF 4: Reset & Out-of-Context] (assets/I cannot find the answer.gif)
+![Image: GIF 4: Reset & Out-of-Context](assets/Icannotfindtheanswer.gif)
 
 (Description: User clicks the 🔄 (reset) button, confirms reset. Chatbot clears. User then types "What is the capital of France?", hits Send. Chatbot responds with "I cannot find the answer to that question in the provided document.")
 
